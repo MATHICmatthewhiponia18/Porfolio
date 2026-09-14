@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+</head>
+<body>
+    <style>
+        body{
+            background-image: url(HD-wallpaper-navy-blue-colour-dark-blue-texture-dark-blue-texture-blue-background.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            align-items: center;
+            justify-items: center;
+        }
+        h1{
+            font-size: 16px;
+            font-weight: bold;
+            font-family: sans-serif;
+            color: rgb(50, 224, 255);
+        }
+        .content{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-items: center;
+        }
+        .game button{
+            display: flex;
+            justify-self: left;
+            justify-content: center;
+            height: fit-content;
+            width: fit-content;
+            font-size: 32px;
+            color: rgb(50, 224, 255);
+            background-color: rgb(12, 109, 126);
+            margin: 16px;
+        }
+        #Games{
+            padding: 8px;
+            border: 1px solid rgb(50, 224, 255);
+            box-shadow: 0 4px 10px rgb(50, 224, 255);
+            background-color: rgb(12, 109, 126);
+            align-items: center;;
+        }
+        .imgR{
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            gap: 8px;
+            justify-content: center;
+            align-items: center;
+        }
+        .imgR h1{
+            justify-self: center;
+        }
+        .imgR img{
+            width: auto;
+            height: 128px;
+            object-fit: cover;
+            align-self: center;
+        }
+        .school button{
+            display: flex;
+            justify-self: left;
+            justify-content: center;
+            height: fit-content;
+            width: fit-content;
+            font-size: 32px;
+            color: rgb(50, 224, 255);
+            background-color: rgb(12, 109, 126);
+            margin: 16px;
+        }
+        #School{
+            padding: 8px;
+            border: 1px solid rgb(50, 224, 255);
+            box-shadow: 0 4px 10px rgb(50, 224, 255);
+            background-color: rgb(12, 109, 126);
+        }
+        .Simg{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 8px;
+            justify-content: center;
+        }
+        .Simg h1{
+            text-align: center;
+        }
+        .Simg img{
+            width: 128px;
+            height: 128px;
+            object-fit: cover;
+            justify-self: center;
+        }
+        .schoollife button{
+            display: flex;
+            justify-self: left;
+            justify-content: center;
+            height: fit-content;
+            width: fit-content;
+            font-size: 32px;
+            color: rgb(50, 224, 255);
+            background-color: rgb(12, 109, 126);
+            margin: 16px;
+        }
+        #SchoolLife{
+            padding: 8px;
+            border: 1px solid rgb(50, 224, 255);
+            box-shadow: 0 4px 10px rgb(50, 224, 255);
+            background-color: rgb(12, 109, 126);
+        }
+        .SLimg{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 8px;
+            justify-content: center;
+        }
+        .SLimg img{
+            width: 100%;
+            max-width: 160px;
+            height: 128px;
+            object-fit: cover;
+        }
+        .back{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+    </style>
+    <script>
+
+    </script>
+<div class="content">
+    <div class="game">
+        <button onclick="popover" popovertarget="Games">
+        <img src="GameC.jpg" style="align-items: center; height: fit-content; width: 128px;">
+            Played Games
+        </button>
+    <div id="Games" popover>
+    <div class="imgR">
+            <img src="MobileL.jpg"><img src="ClashoC.jpg"><img src="MineC.jpg">
+            <h1>Mobile Legends</h1><h1>Clash of Clans</h1><h1>Minecraft</h1>
+            <img src="CurseoA.jpg"><img src="Terra.jpg"><img src="ClashR.jpg">
+            <h1>Curse Of Aros</h1><h1>Terraria</h1><h1>Clash Royale</h1>
+    </div>
+    </div>
+    </div>
+    <div class="school">
+        <button onclick="popover" popovertarget="School">
+        <img src="School.jpg" style="align-items: center; height: fit-content; width: 128px;">
+            Schools Attended
+        </button>
+    <div id="School" popover>
+    <div class="Simg">
+            <img src="KES.jpg"><img src="DCLNHS.jpg"><img src="CPSU.png" style="height: 154.586px;">
+           <h1>Katingal-an Elementary School</h1><h1>Don Carlos Ledesma National High School</h1><h1>Central Philippine State University<br>Course: BSIT</h1>
+    </div>
+    </div>
+    </div>
+    <div class="schoollife">
+        <button onclick="popover" popovertarget="SchoolLife">
+        <img src="received_2009355766312695.jpeg" style="align-items: center; height: fit-content; width: 128px;">
+            College Life
+        </button>
+    <div id="SchoolLife" popover>
+    <div class="SLimg">
+            <img src="received_1259849376082582.jpeg"><img src="received_1977490822972104.jpeg"><img src="received_1596963368271719.jpeg">
+            <img src="received_1273779301375897.jpeg"><img src="received_1283112723716600.jpeg"><img src="received_1315728167071642.jpeg">
+            <img src="received_1601142767855641.jpeg"><img src="received_1583349603573153.jpeg"><img src="received_1587249326157047.jpeg">
+            <img src="received_928825322863618.jpeg"><img src="received_2009355766312695.jpeg"><img src="received_1386759659965176.jpeg">
+    </div>
+    </div>
+</div>
+    <div class="back">
+    <a href="sabaw2.html">
+          <button style="align-items: center;color: aqua;background-color: #112d7f;">Back</button>
+    </a>
+    </div>
+</body>
+</html>
