@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,intial-scale=1.0">
+  <title>Skills</title>
+  </head>
+  <body>
+    <style>
+        body{
+          background-color: rgb(1, 117, 46);
+          background-image: url(HD-wallpaper-navy-blue-colour-dark-blue-texture-dark-blue-texture-blue-background.jpg);
+          color:rgb(50, 224, 255);
+          background-repeat: no-repeat;
+          background-size: cover;
+          text-align: center;
+        }
+        h2{
+          font-size: 50px;
+          font-weight: 512;
+          border:8px solid rgb(12, 109, 126);
+          border-radius: 32px;
+        }
+        button{
+          align-items: center;
+          text-align: center;
+          width: auto;
+          height: auto;
+          border-radius: 10px;
+          font-weight: 512;
+          font-size: 32px;
+          color: rgb(50, 224, 255);
+          background-color: rgb(12, 109, 126);
+        }
+        .htML{
+          width: 100%;
+          background: rgb(50, 224, 255);
+          height: 32px;
+          border-radius: 10px;
+          border:2px solid rgb(12, 109, 126); 
+          overflow: hidden;
+        }
+        .JAVAS{
+          width: 100%;
+          background: rgb(50, 224, 255);
+          height: 32px;
+          border-radius: 10px;
+          border:2px solid rgb(12, 109, 126); 
+          overflow: hidden;
+        }
+        #progJS{
+          height: 100%;
+          width:0%;
+          background: white;
+          text-align: center;
+          line-height: 30px;
+          border-radius: 10px;
+          transition: width 0.99s ease;
+        }
+        .CSS{
+          width: 100%;
+          background: rgb(50, 224, 255);
+          height: 32px;
+          border-radius: 10px;
+          border:2px solid rgb(12, 109, 126); 
+          overflow: hidden;
+        }
+        #progCSS{
+          height: 100%;
+          width:0%;
+          background: white;
+          text-align: center;
+          line-height: 30px;
+          border-radius: 10px;
+          transition: width 0.99s ease;
+        }
+        #progH{
+          height: 100%;
+          width:0%;
+          background: white;
+          text-align: center;
+          line-height: 30px;
+          border-radius: 10px;
+          transition: width 0.99s ease;
+        }
+        .CPP{
+          width: 100%;
+          background: rgb(50, 224, 255);
+          height: 32px;
+          border-radius: 10px;
+          border:2px solid rgb(50, 224, 255); 
+          overflow: hidden;
+        }
+        #progC{
+          height: 100%;
+          width:0%;
+          background: white;
+          text-align: center;
+          line-height: 30px;
+          border-radius: 10px;
+          transition: width 0.99s ease;
+        }
+        .JAVA{
+          width: 100%;
+          background: rgb(50, 224, 255);
+          height: 32px;
+          border-radius: 10px;
+          border:2px solid rgb(12, 109, 126); 
+          overflow: hidden;
+        }
+        #progJ{
+          height: 100%;
+          width:0%;
+          background: white;
+          text-align: center;
+          line-height: 30px;
+          border-radius: 10px;
+          transition: width 0.99s ease;
+        }
+    </style>
+    <script>
+      function skil(){
+      const textElement = document.getElementById("skl");
+        textElement.addEventListener("mouseenter", () => {
+    textElement.style.fontSize = "100px"; });
+        textElement.addEventListener("mouseleave", () => {
+    textElement.style.fontSize = "50px"; });
+
+        textElement.addEventListener("mouseenter", () => {
+    textElement.style.fontWeight = "bolder"; });
+        textElement.addEventListener("mouseleave", () => {
+    textElement.style.fontWeight = "512"; });
+  }
+    function prog(percent){
+      const bar = document.getElementById('progH');
+      bar.style.width = percent + '%';
+      bar.textContent = percent + '%';
+      
+      if(percent > 1){
+      bar.style.background = 'rgb(12, 109, 126)';
+      }
+    }
+    function Reset(percent){
+      const bar = document.getElementById('progH');
+      bar.style.width = percent + '%';
+      bar.textContent = " ";
+    }
+    function progjs(percent){
+      const bar = document.getElementById('progJS');
+      bar.style.width = percent + '%';
+      bar.textContent = percent + '%';
+      
+      if(percent > 1){
+      bar.style.background = 'rgb(12, 109, 126)';
+      }
+    }
+    function reJSet(percent){
+      const bar = document.getElementById('progJS');
+      bar.style.width = percent + '%';
+      bar.textContent = " ";
+    }
+    function progcss(percent){
+      const bar = document.getElementById('progCSS');
+      bar.style.width = percent + '%';
+      bar.textContent = percent + '%';
+      
+      if(percent > 1){
+      bar.style.background = 'rgb(12, 109, 126)';
+      }
+    }
+    function reCSSet(percent){
+      const bar = document.getElementById('progCSS');
+      bar.style.width = percent + '%';
+      bar.textContent = " ";
+    }
+    function progs(percent){
+      const bar = document.getElementById('progC');
+      bar.style.width = percent + '%';
+      bar.textContent = percent + '%';
+      
+      if(percent > 1){
+      bar.style.background = 'rgb(12, 109, 126)';
+      }
+    }
+    function rEset(percent){
+      const bar = document.getElementById('progC');
+      bar.style.width = percent + '%';
+      bar.textContent = " ";
+    }
+    function progss(percent){
+      const bar = document.getElementById('progJ');
+      bar.style.width = percent + '%';
+      bar.textContent = percent + '%';
+      
+      if(percent > 1){
+      bar.style.background = 'rgb(12, 109, 126)';
+      }
+    }
+    function reSet(percent){
+      const bar = document.getElementById('progJ');
+      bar.style.width = percent + '%';
+      bar.textContent = " ";
+    }
+    function KOn(){
+    const textElement = document.getElementById("koN");
+      textElement.addEventListener("mouseenter", () => {
+    textElement.style.fontSize = "64px"; });
+      textElement.addEventListener("mouseleave", () => {
+    textElement.style.fontSize = "32px"; });
+
+      textElement.addEventListener("mouseenter", () => {
+    textElement.style.fontWeight = "bolder"; });
+        textElement.addEventListener("mouseleave", () => {
+    textElement.style.fontWeight = "512"; });
+    }
+    function kO(){
+    const textElement = document.getElementById("ko");
+      textElement.addEventListener("mouseenter", () => {
+    textElement.style.fontSize = "64px"; });
+      textElement.addEventListener("mouseleave", () => {
+    textElement.style.fontSize = "32px"; });
+
+        textElement.addEventListener("mouseenter", () => {
+    textElement.style.fontWeight = "bolder"; });
+        textElement.addEventListener("mouseleave", () => {
+    textElement.style.fontWeight = "512"; });
+    }
+    function K(){
+    const textElement = document.getElementById("k");
+      textElement.addEventListener("mouseenter", () => {
+    textElement.style.fontSize = "64px"; });
+      textElement.addEventListener("mouseleave", () => {
+    textElement.style.fontSize = "32px"; });
+
+        textElement.addEventListener("mouseenter", () => {
+    textElement.style.fontWeight = "bolder"; });
+        textElement.addEventListener("mouseleave", () => {
+    textElement.style.fontWeight = "512"; });
+    }
+    function kOn(){
+    const textElement = document.getElementById("Kon");
+      textElement.addEventListener("mouseenter", () => {
+    textElement.style.fontSize = "64px"; });
+      textElement.addEventListener("mouseleave", () => {
+    textElement.style.fontSize = "32px"; });
+
+        textElement.addEventListener("mouseenter", () => {
+    textElement.style.fontWeight = "bolder"; });
+        textElement.addEventListener("mouseleave", () => {
+    textElement.style.fontWeight = "512"; });
+    }
+    function kON(){
+    const textElement = document.getElementById("kOn");
+      textElement.addEventListener("mouseenter", () => {
+    textElement.style.fontSize = "64px"; });
+      textElement.addEventListener("mouseleave", () => {
+    textElement.style.fontSize = "32px"; });
+
+        textElement.addEventListener("mouseenter", () => {
+    textElement.style.fontWeight = "bolder"; });
+        textElement.addEventListener("mouseleave", () => {
+    textElement.style.fontWeight = "512"; });
+    }
+    </script>
+
+      <h2 onmouseenter="skil()" id="skl" style="transition:  0.32s ease;">
+        Skills
+      </h2>
+
+      <button onclick="prog(42.19)" ondblclick="Reset(0)" onmouseenter="KOn()" id="koN" style="transition:  0.25s ease;">Html</button>
+      <br>
+      <br>
+      <div class="htML"><div id="progH">  </div></div>
+      <br>
+      <br>
+      <button onclick="progjs(18.12)" ondblclick="reJSet(0)" onmouseenter="kO()" id="ko" style="transition:  0.25s ease;">Javascript</button>
+      <br>
+      <br>
+      <div class="JAVAS"><div id="progJS">  </div></div>
+      <br>
+      <br>
+      <button onclick="progcss(42)" ondblclick="reCSSet(0)" onmouseenter="K()" id="k" style="transition:  0.25s ease;">CSS</button>
+      <br>
+      <br>
+      <div class="CSS"><div id="progCSS">  </div></div>
+      <br>
+      <br>
+      <button onclick="progs(75.33)" ondblclick="rEset(0)" onmouseenter="kOn()" id="Kon" style="transition:  0.25s ease;">C++</button>
+      <br>
+      <br>
+      <div class="CPP"><div id="progC">  </div></div>
+      <br>
+      <br>
+      <button onclick="progss(45.77)" ondblclick="reSet(0)" onmouseenter="kON()" id="kOn" style="transition:  0.25s ease;">Java</button>
+      <br>
+      <br>
+      <div class="JAVA"><div id="progJ">  </div></div>
+      <br>
+      <br>
+      <a href="main.html">
+          <button style="font-size: 16px;justify-content: left;color: rgb(50, 224, 255);background-color: rgb(12, 109, 126); width: fit-content; height: fit-content;">Back</button>
+      </a>
+</body>
+</html> 

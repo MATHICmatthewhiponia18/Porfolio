@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <script>
+      function box(){
+        const textElement = document.getElementById("boxa");
+        textElement.addEventListener("mouseenter", () => {
+    textElement.style.fontSize = "64px"; });
+        textElement.addEventListener("mouseleave", () => {
+    textElement.style.fontSize = "32px"; });
+
+        textElement.addEventListener("mouseenter", () => {
+    textElement.style.fontWeight = "bold"; });
+        textElement.addEventListener("mouseleave", () => {
+    textElement.style.fontWeight = "lighter"; });
+
+        textElement.addEventListener("mouseenter", () => {
+    textElement.style.color = "red";});
+        textElement.addEventListener("mouseleave", () => {
+    textElement.style.color = "rgb(50, 224, 255)"; });
+    }
+    function xob(){
+        const textElement = document.getElementById("axob");
+        textElement.addEventListener("mouseenter", () => {
+    textElement.style.fontSize = "64px"; });
+        textElement.addEventListener("mouseleave", () => {
+    textElement.style.fontSize = "32px"; });
+
+        textElement.addEventListener("mouseenter", () => {
+    textElement.style.fontWeight = "bold"; });
+        textElement.addEventListener("mouseleave", () => {
+    textElement.style.fontWeight = "lighter"; });
+
+        textElement.addEventListener("mouseenter", () => {
+    textElement.style.color = "green"; });
+        textElement.addEventListener("mouseleave", () => {
+    textElement.style.color = "rgb(50, 224, 255)"; });
+    }
+    function abo(){
+        const textElement = document.getElementById("abox");
+        textElement.addEventListener("mouseenter", () => {
+    textElement.style.fontSize = "64px"; });
+        textElement.addEventListener("mouseleave", () => {
+    textElement.style.fontSize = "32px"; });
+
+        textElement.addEventListener("mouseenter", () => {
+    textElement.style.fontWeight = "bold"; });
+        textElement.addEventListener("mouseleave", () => {
+    textElement.style.fontWeight = "lighter"; });
+
+        textElement.addEventListener("mouseenter", () => {
+    textElement.style.color = "blue";});
+        textElement.addEventListener("mouseleave", () => {
+    textElement.style.color = "rgb(50, 224, 255)"; });
+    }
+    function oba(){
+        const textElement = document.getElementById("obax");
+        textElement.addEventListener("mouseenter", () => {
+    textElement.style.fontSize = "64px"; });
+        textElement.addEventListener("mouseleave", () => {
+    textElement.style.fontSize = "32px"; });
+
+        textElement.addEventListener("mouseenter", () => {
+    textElement.style.fontWeight = "bold"; });
+        textElement.addEventListener("mouseleave", () => {
+    textElement.style.fontWeight = "lighter"; });
+
+        textElement.addEventListener("mouseenter", () => {
+    textElement.style.color = "white";});
+        textElement.addEventListener("mouseleave", () => {
+    textElement.style.color = "rgb(50, 224, 255)"; });
+    }
+    function rgb(){
+        const textElement = document.getElementById("texter");
+        textElement.addEventListener("mouseenter", () => {
+    textElement.style.color = "white";});
+        textElement.addEventListener("mouseleave", () => {
+    textElement.style.color = "rgb(50, 224, 255)"; });
+        }
+    function nav(){
+        window.location.href = ("Sabaw.html");
+    }
+    function van(){
+        window.location.href = ("Sabaw3.html");
+    }
+    function anv(){
+        window.location.href = ("Sabaw4.html");
+    }
+</script>
+<style>
+    body{
+            color:rgb(50, 224, 255);
+            background-image: url(HD-wallpaper-navy-blue-colour-dark-blue-texture-dark-blue-texture-blue-background.jpg);
+            image-rendering:auto;
+            background-repeat: no-repeat;
+            background-size: cover;
+            flex: auto;
+            align-items: center;
+}
+h2{
+    color: rgb(50, 224, 255);
+    font-size: 108px;
+    text-align: center;
+}
+.Nien button{
+            display: flex;
+            flex-direction: row;
+            font-size: 32px;
+            font-weight: lighter;
+            border-radius: 10px;
+            background-color:rgb(10, 103, 165);
+            color:rgb(50, 224, 255);
+            height: fit-content;
+            width: fit-content;
+            justify-self: center;
+            justify-content: center;
+            align-items: center;
+            margin: 33px;
+            transition:  0.25s ease-in-out;
+}
+</style>
+    <h2 onmouseenter="rgb()" id="texter" style="transition:  0.25s ease-out;">
+        Home
+    </h2>
+    <div class="Nien">
+        <button onmouseenter="box()" id="boxa" onclick="nav()">
+            About me
+    </button>
+        <button onmouseenter="xob()" id="axob" onclick="van()">
+            Skills
+    </button>
+        <button onmouseenter="abo()" id="abox" onclick="anv()">
+            Gallery
+    </button>
+</div>
+</div>
+</body>
+</html>
